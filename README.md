@@ -1,7 +1,7 @@
 # UKB_tips
 在使用UKB进行数据分析过程中编写的增加效率的脚本 Scripts written to increase efficiency during data analysis using UKB
 
-## 1.从UKB总数居中提取想要的变量 extrect convariables from UKB.tab
+## 1.从UKB总数中提取想要的变量 extrect convariables from UKB.tab
 本脚本需要环境中安装有任意版本的R语言和awk命令 This script requires any version of the R language and awk commands installed in the environment
 
 ### 1.1.step1 从UKB项目变量列表.html中复制你需要的变量对应的行 copy colnum of variables which u need from UKB.html
@@ -17,3 +17,7 @@ Rscript UKB.extrect.Rscript.vbeta.R \
   -o "/path/to/output/output.tab" \
   -u "/path/to/UKB.tab/UKB.tab"
 ```
+head output.tab \
+输出文件示例 \
+![image](https://github.com/user-attachments/assets/a64bea9b-43fd-45e5-807c-4f125910cff1)
+
